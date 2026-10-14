@@ -6,7 +6,7 @@ import { JsonLd, faqLd } from '../jsonld'
 
 const PATH = '/rescue-ai-built-apps'
 const TITLE = 'Rescue & Harden Your AI-Built App'
-const DESC = 'Built an app with AI that is not ready for real users? Tech2O Labs reviews, fixes and hardens AI-generated code: security, reliability, tests and monitoring.'
+const DESC = 'Built an app with AI that is not ready for real users? We review, fix and harden AI-generated code: security, reliability, tests and monitoring.'
 
 export const metadata = {
   title: TITLE,

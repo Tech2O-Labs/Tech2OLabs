@@ -57,7 +57,8 @@ export default function Home() {
     const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches
     const c = navigator.connection
     // heavy 3D scene: skip on reduced-motion, data-saver or slow connections; otherwise load after the page has painted
-    const lite = reduce || c?.saveData || /2g|3g/.test(c?.effectiveType || '')
+    const lite = reduce || c?.saveData || /2g|3g/.test(c?.effectiveType || '') || innerWidth < 768 || navigator.hardwareConcurrency <= 2
+    if (lite) document.body.classList.add('no-gl')
     const capable = !!document.createElement('canvas').getContext('webgl2')
     let lenis, off = false
     const start = () => {

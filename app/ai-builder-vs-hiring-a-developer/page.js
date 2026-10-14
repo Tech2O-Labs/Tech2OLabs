@@ -5,8 +5,8 @@ import SubHeader from '../../components/SubHeader'
 import Footer from '../../components/Footer'
 
 const PATH = '/ai-builder-vs-hiring-a-developer'
-const TITLE = 'AI Builder vs Hiring a Developer: Which Should You Choose?'
-const DESC = 'Should you build your software with AI tools or hire a developer or team? An honest comparison of cost, speed, quality, risk and when each is the right choice.'
+const TITLE = 'AI Builder vs Hiring a Developer'
+const DESC = 'Build your software with AI tools or hire a developer or team? An honest comparison of cost, speed, quality, risk and when each is the right choice.'
 
 export const metadata = {
   title: TITLE,

@@ -6,8 +6,8 @@ import Footer from '../../components/Footer'
 import Checklist from '../../components/Checklist'
 
 const PATH = '/launch-readiness-checklist'
-const TITLE = 'Is Your App Ready to Launch? A Production-Readiness Checklist'
-const DESC = 'A 13-point checklist covering security, reliability and maintenance. Check your app, especially if you built it with AI, before real users or money are involved.'
+const TITLE = 'App Launch-Readiness Checklist'
+const DESC = 'A 13-point checklist covering security, reliability and maintenance. Check your app, especially if built with AI, before real users or money are involved.'
 
 export const metadata = {
   title: TITLE,

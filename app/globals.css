@@ -11,10 +11,10 @@ section{position:relative;z-index:1;min-height:100svh;padding:120px 5vw 80px;dis
 .hero{max-width:min(720px,100%)}
 h1,h2,h3{font-family:var(--head);font-weight:600}
 h1{font-size:clamp(2.4rem,6vw,5.2rem);line-height:1.05;letter-spacing:-.04em;font-weight:700}
-h1{animation:resolve 1.4s ease-out both}
+h1{animation:resolve .7s ease-out}
 h1 em{text-shadow:none;font-style:normal;background:linear-gradient(90deg,var(--ac),var(--ac2));-webkit-background-clip:text;color:transparent}
 h2{font-size:clamp(2rem,4.5vw,3.5rem);letter-spacing:-.02em}
-@keyframes resolve{from{filter:blur(24px);opacity:0;letter-spacing:.1em}}
+@keyframes resolve{from{filter:blur(12px)}}
 .eyebrow,.tag{font-family:var(--mono);color:var(--ac);text-transform:uppercase;letter-spacing:.2em;font-size:.75rem}
 .lead{font-size:1.2rem;opacity:.8;max-width:34em}
 .btn{align-self:flex-start;padding:14px 28px;border-radius:99px;border:0;background:linear-gradient(90deg,var(--ac),var(--ac2));color:#03080f;font:600 1rem var(--font-mont),sans-serif;cursor:pointer}
@@ -51,6 +51,7 @@ footer{padding:0 5vw 40px;margin:0;opacity:.7;font-size:.85rem}footer a{text-dec
 .faq p{margin-top:14px;opacity:.8}
 
 @keyframes fadein{from{opacity:0}}
+body.no-gl{background-image:radial-gradient(rgba(120,170,220,.22) 1px,transparent 1px),radial-gradient(circle at 50% 20%,#06303a,var(--bg) 70%);background-size:22px 22px,auto}
 .more{display:inline-block;margin-top:12px;color:var(--ac);font-weight:600}
 .doc section{min-height:0;padding:56px 5vw;justify-content:flex-start}
 .doc .hero{padding-top:140px;max-width:min(860px,100%)}
